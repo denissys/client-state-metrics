@@ -1,0 +1,23 @@
+{
+  "name": "client-state-metrics",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denissys/client-state-metrics.git"
+  },
+  "author": "Denis Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denissys/client-state-metrics/issues"
+  },
+  "homepage": "https://github.com/denissys/client-state-metrics#readme",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "redis": "^2.8.0",
+    "yaml-config": "^0.3.0"
+  }
+}
