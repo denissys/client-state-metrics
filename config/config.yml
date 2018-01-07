@@ -1,1 +1,8 @@
 default:
+  workers:
+    keepAliveMetrics:
+      read:
+        pagination:
+          count: 5
+      health:
+        checkIntervalInMs: 30000
