@@ -1,8 +1,10 @@
 default:
-  workers:
-    keepAliveMetrics:
-      read:
-        pagination:
-          count: 5
-      health:
-        checkIntervalInMs: 30000
+  keepAliveMetrics:
+    read:
+      clientData:
+        throttleIntervalInMs: 1000
+      pagination:
+        count: 5
+    maxHitsPerHour: 60 # One hit per minute
+    health:
+      checkIntervalInMs: 30000

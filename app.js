@@ -1,7 +1,7 @@
 'use strict'
 
-const keepAliveMetricsWorker = require('./lib/workers/keep-alive-metrics-worker.js').WorkerBuilder;
+const KeepAliveMetricsWorker = require('./lib/workers/keep-alive-metrics-worker.js').WorkerBuilder;
 
-keepAliveMetricsWorker.healthOn().scan(function() {
+new KeepAliveMetricsWorker.scan(function() {
     console.log('StateMetricWorker aborted, restart your process');
 });
