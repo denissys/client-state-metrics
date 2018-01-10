@@ -2,9 +2,9 @@ default:
   keepAliveMetrics:
     read:
       clientData:
-        throttleIntervalInMs: 1000
+        throttleIntervalInMs: 100
       pagination:
-        count: 5
+        count: 500
     maxHitsPerHour: 60 # One hit per minute
     health:
       checkIntervalInMs: 30000
