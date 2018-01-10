@@ -2,7 +2,7 @@
 
 var MetricTypeEnum = {
 	'HOURLY': 'hourly',
-	'DAILY': 'hourly',
+	'DAILY': 'daily',
 	'GENERAL': 'general'
 };
 
