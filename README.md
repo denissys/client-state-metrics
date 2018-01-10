@@ -2,6 +2,7 @@
 
 Client State Metrics is a simple application that obtain data of clients, consolidate and transform in business metrics, using:
 - redis (https://redis.io/)
+- mongo (https://www.mongodb.com/)
 
 ## Installation
 
@@ -17,6 +18,7 @@ npm install
 
 You need install: 
 - redis
+- mongo
 
 ## Run
 
