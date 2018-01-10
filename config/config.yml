@@ -8,3 +8,8 @@ default:
     maxHitsPerHour: 60 # One hit per minute
     health:
       checkIntervalInMs: 30000
+  db:
+    mongo:
+      address: localhost
+      port: 27001
+      databaseName: metrics
